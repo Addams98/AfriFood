@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<!-- Basic -->
+
+<head th:replace="~{fragments::head}">
+
+
+</head>
+
+<body>
+<div th:replace="~{fragments::main-top}"></div>
+<!-- End Main Top -->
+
+<!-- Start Main Top -->
+<header th:replace="~{fragments::main-header}"></header>
+<!-- End Main Top -->
+
+<!-- Start Top Search -->
+<div th:replace="~{fragments::top-search}">
+</div>
+<!-- End Top Search -->
+
+<!-- Start Slider -->
+<div id="slides-shop" class="cover-slides">
+    <ul class="slides-container">
+        <li class="text-center">
+            <img src="images/bmk-paris-bamako.webp" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Bienvenu a <br> AfriFood</strong></h1>
+                        <p class="m-b-40">Bon Appetit <br> Passez un bon moment devant un de nos delicieux repas!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/i102049-fruit-passion-nu.jpg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Bienvenu a <br> AfriFood</strong></h1>
+                        <p class="m-b-40">Bon Appetit <br> Passez un bon moment devant un de nos delicieux repas!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="images/IMG_Blog_Legumes-africains-part2.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h1 class="m-b-20"><strong>Bienvenu a <br> AfriFood</strong></h1>
+                        <p class="m-b-40">Bon Appetit <br> Passez un bon moment devant un de nos delicieux repas!</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Slider -->
+
+
+<!-- Start About Page  -->
+<div class="about-box-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-frame"><img class="img-fluid" src="images/madora.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="noo-sh-title-top">Nous sommes <span>Afrifood</span></h2>
+                <p>La cuisine africaine est notre seule spécialité.
+                    Ayant passé de nombreuses années en Afrique, nous savons où trouver les meilleurs produits et aliments du continent.
+                    AfriFood ne traite qu'avec des transformateurs haut de gamme et des importateurs fiables.
+                    Nous traitons des produits de qualité que nous servirions à nos amis et à notre famille.
+                    Si c'est assez bon pour notre table, vous le voudrez sur la vôtre !</p>
+                <p>Chez AfriFood, vous pouvez choisir le meilleur des deux. Ici, les clients sont invités à une aventure gastronomique.
+                    Nous vous ferons vivre une expérience inoubliable.</p>
+                <p>Notre menu est à la fois classique et moderne, avec des plats plus légers et des présentations tels le Ndole, la sauce Okra, la sauce graine, Poulet mayo etc.
+                    Nous ne nous contentons pas de proposer des plats incroyables : Nous créons des expériences remarquables.</p>
+
+            </div>
+        </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Start Feed  -->
+<div th:replace="~{fragments::instagram-box}">
+</div>
+
+<!-- End Feed  -->
+
+
+<!-- Start Footer  -->
+<footer th:replace="~{fragments::footer}">
+
+</footer>
+
+
+<!-- ALL JS FILES -->
+<div th:replace="~{fragments::script}"></div>
+</body>
+
+</html>
